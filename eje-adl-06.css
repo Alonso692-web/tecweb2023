@@ -1,0 +1,111 @@
+/*Selectores*/
+/*
+    1.- Por clase       .clase
+    2.- Por elemento    p|div
+    3.- Por id          #boton-default
+*/
+
+.boton{
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    color: #FFFFFF;
+}
+
+.default{
+    background-color: #e9ecef;
+    border-color: #e9ecef;
+    color: #444444;
+}
+
+.default:hover{
+    background-color: #b9d2e4;
+    border-color: #b9d2e4;
+}
+
+.primary{
+    background-color: #007BFF;
+    border-color: #007BFF;
+}
+
+.primary:hover{
+    border-color: #064e9a;
+    background-color: #064e9a;
+}
+
+.success{
+    border-color: #28A745;
+    background-color: #28A745;
+}
+
+.success:hover{
+    border-color: #218838;
+    background-color: #218838;
+}
+
+.secondary{
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.secondary:hover{
+    background-color: #5a6268;
+    border-color: #5a6268;
+}
+
+.info{
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.info:hover{
+    background-color: #138496;
+    border-color: #138496;
+}
+
+.danger{
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.danger:hover{
+    background-color: #c82333;
+    border-color: #c82333;
+}
+
+.warning{
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #444444;
+}
+
+.warning:hover{
+    background-color: #e0a800;
+    border-color: #e0a800;
+}
+
+.light{
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    color: #444444;
+}
+
+.light:hover{
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+}
+
+.dark{
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.dark:hover{
+    background-color: #23272b;
+    border-color: #23272b;
+}
