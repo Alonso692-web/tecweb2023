@@ -1,0 +1,50 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#div-container{
+    width: 60%;
+    margin: auto;
+    background-color: #fbcf34;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    display: flex;
+}
+
+#div-image{
+    width: 30%;
+    margin-left: 10px;
+}
+
+#div-form{
+    width: 70%;
+    padding: 15px;
+    background-color: white;
+}
+
+img{
+    width: 100%;
+}
+
+input{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+#nombre,#numero-tarjeta{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#boton-pagar{
+    background-color: #24cf5f;
+    border-style: solid;
+    border-color: #24cf5f;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    text-transform: uppercase;
+}
