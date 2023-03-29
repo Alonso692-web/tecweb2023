@@ -1,0 +1,95 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(197, 197, 197);
+    background-position: center;
+   
+}
+
+#div-form{
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    padding: 15px;
+    background-color: white;
+    border-radius: 50px;
+    border-width: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#web{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 0px 0px 8px #781D41;
+}
+
+header{
+position: sticky;
+top: 0;
+background-color: white;
+text-align:center;
+
+}
+
+.boton{
+    min-width: 120px;
+    min-height: 35px;
+    text-align:center;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    border-style: groove;
+    border-width: 1px;
+    background-color: #781D41;
+    color: white;
+}
+.boton:hover{
+    background-color: rgb(255, 255, 255);
+    color: #781D41;
+}
+
+.h4, .h1{
+    color: #781D41;
+}
+
+.tip{
+    background-image: url(../imagenes/fondo4.png);
+}
+
+.desa{
+    background-image: url(../imagenes/fondo3.png); 
+}
+
+.htmll{
+    background-image: url(../imagenes/fondo4.png);
+}
+
+.multi{
+    background-image: url(../imagenes/fondo3.png);
+}
+
+.herra{
+    background-image: url(../imagenes/fondo2.png);
+    /*margin-left: 40px;*/
+    padding-top: 30px;
+}
+
+.h1{
+    font-size: 30px;
+}
+
+.h4{
+    font-size: 18px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section:target{
+    padding-top: 100px;
+    margin-top: -100px;
+}
